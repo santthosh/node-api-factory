@@ -19,6 +19,12 @@
       "type": "MIT"
     }
   ],
+  "engines" : {
+    "node" : ">=0.10.3 <0.12"
+  },
+  "dependencies" : {
+    "http-proxy": "~0.10.3"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
