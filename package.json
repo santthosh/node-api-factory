@@ -1,6 +1,6 @@
 {
   "name": "node-api-factory",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/node-api-factory.js",
   "description": "Quick way to spec API with node.js",
   "homepage": "https://github.com/santthosh/node-api-factory",
