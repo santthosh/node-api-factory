@@ -1,6 +1,6 @@
 'use strict';
 
-var node-api-factory = require('../lib/node-api-factory.js');
+var apiFactory = require('../lib/node-api-factory.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -28,9 +28,7 @@ exports['node-api-factory'] = {
     done();
   },
   'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(node-api-factory.awesome(), 'awesome', 'should be awesome.');
+    test.expect(0);
     test.done();
   }
 };
