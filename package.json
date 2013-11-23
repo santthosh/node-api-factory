@@ -1,5 +1,5 @@
 {
-  "name": "node-api-factory",
+  "name": "api-factory",
   "version": "0.0.1",
   "main": "lib/node-api-factory.js",
   "description": "Quick way to spec API with node.js",

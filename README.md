@@ -1,16 +1,22 @@
-# node-api-factory [![Build Status](https://secure.travis-ci.org/santthosh/node-api-factory.png?branch=master)](http://travis-ci.org/santthosh/node-api-factory)
+# node-api-factory [![Build Status](https://secure.travis-ci.org/santthosh/node-api-factory.png?branch=develop)](http://travis-ci.org/santthosh/node-api-factory)
 
 Quick way to spec API with node.js
 
 ## Getting Started
-Install the module with: `npm install node-api-factory`
+1. Install the module with: `npm install node-api-factory` or add it to package.json
+
+2. `require` node-api-factory in an js file as shown below, alternatively you can just run node-api-factory straight from install location
 
 ```javascript
-var node-api-factory = require('node-api-factory');
-node-api-factory.awesome(); // "awesome"
+/*
+ * main.js
+ */
+require('node-api-factory');
 ```
 
-## Documentation
+3. Run the api-factory `node main.js`
+
+## Configuring api-factory
 _(Coming soon)_
 
 ## Examples
