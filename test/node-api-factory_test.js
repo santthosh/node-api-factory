@@ -1,7 +1,5 @@
 'use strict';
 
-var apiFactory = require('../lib/node-api-factory.js');
-
 /*
   ======== A Handy Little Nodeunit Reference ========
   https://github.com/caolan/nodeunit
@@ -27,8 +25,11 @@ exports['node-api-factory'] = {
     // setup here
     done();
   },
-  'no args': function(test) {
+  'empty test': function(test) {
     test.expect(0);
     test.done();
+  },
+  tearDown: function(done) {
+    done();
   }
 };
