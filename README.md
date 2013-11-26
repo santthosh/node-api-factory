@@ -3,7 +3,7 @@
 Quick way to spec API with node.js
 
 ## Getting Started
-1. Install the module with: `npm install node-api-factory` or add it to package.json
+1. Install the module with: `npm install api-factory` or add it to package.json
 
 2. `require` node-api-factory in an js file as shown below, alternatively you can just run node-api-factory straight from install location
 
